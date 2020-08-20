@@ -24,7 +24,7 @@ lazy val commonSettings = Seq(
   addCompilerPlugin("org.typelevel" %% "kind-projector" % "0.11.0" cross CrossVersion.full),
   addCompilerPlugin("org.scalamacros" %% "paradise" % "2.1.1" cross CrossVersion.full),
 
-  libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.1" % Test,
+  libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.2-M2" % Test,
 
   Global / cancelable := true,
   Test / fork := true,

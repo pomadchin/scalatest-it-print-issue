@@ -1,5 +1,8 @@
 # ScalaTest AnyFunSpec it print issue
 
+The related github issue: https://github.com/scalatest/scalatest/issues/1876
+Versions that fix the behavior at the time of this commit: 3.2.2-M1, 3.2.2-M2 
+
 This bug is reproducible with the `scalatest v3.2.1` only. `3.2.0` works as expected.
 
 * `org.scalatest.funspec.AnyFunSpec` does not print the `it { }` blocks title in case it runs for a longer than `~2 seconds`.
